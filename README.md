@@ -6,16 +6,11 @@
 This tutorial outlines the implementation of Active Directory within Azure Virtual Machines.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
-- PowerShell
 
 <h2>Operating Systems Used </h2>
 
@@ -51,6 +46,7 @@ Open up Active Directory Users and Computers and create a new Organizational Uni
 <img width="2880" height="1716" alt="image" src="https://github.com/user-attachments/assets/8ca03125-0eae-4d67-8e96-8c889b54fe12" />
 </p>
 <p>
-Please ensure that Client-1's DNS settings are configured to use DC-1's Private IP address. From the Client-1 VM, navigate to the Rename this PC (Advanced) settings, select 'Change' to change the domain, switch to 'Member of domain: mydomain.com', and log in using the domain admin's login credentials. Restart the machine to implement the change and verify that client-1 shows up in ADUC under the 'Computers' Organizational Unit. Log back into Client-1 as the Domain Admin and within the system properties, select Remote Desktop, and allow 'Domain Users' to access remote desktop.
+Please ensure that Client-1's DNS settings are configured to use DC-1's Private IP address. From the Client-1 VM, navigate to the Rename this PC (Advanced) settings, select 'Change' to change the domain, switch to 'Member of domain: mydomain.com', and log in using the domain admin's login credentials. Restart the machine to implement the change and verify that client-1 shows up in ADUC under the 'Computers' Organizational Unit. Log back into Client-1 as the Domain Admin and within the system properties, select Remote Desktop, and allow 'Domain Users' to access the remote desktop. To see more on creating a Group Policy that applies this to many systems, <a href="https://github.com/camcoleman21/group-policy-and-account-management">click the link here.</a>
+
 </p>
 <br />
