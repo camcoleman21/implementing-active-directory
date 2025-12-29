@@ -32,7 +32,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2880" height="1708" alt="image" src="https://github.com/user-attachments/assets/7d396b8b-e0b5-4497-8c79-0c24ed2a3b4f" />
 </p>
 <p>
 Logging into the DC-1 VM, navigate to Server Manager, Add Roles and Features, and install Active Directory Domain Services.
