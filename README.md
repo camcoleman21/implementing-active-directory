@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+<img width="2500" height="415" alt="image" src="https://github.com/user-attachments/assets/def4a0b6-03db-4c64-8666-ac9c8256f474" />
 </p>
 
 <h1>Implementing Active Directory Deployed Within the Cloud (Azure)</h1>
