@@ -35,7 +35,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <img width="2880" height="1708" alt="image" src="https://github.com/user-attachments/assets/7d396b8b-e0b5-4497-8c79-0c24ed2a3b4f" />
 </p>
 <p>
-Logging into the DC-1 VM, navigate to Server Manager, Add Roles and Features, and install Active Directory Domain Services.
+Logging into the DC-1 VM, navigate to Server Manager, Add Roles and Features, and install Active Directory Domain Services. Promote as the DC and set up a new forest labeled "mydomain.com"
 </p>
 <br />
 
