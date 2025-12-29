@@ -43,7 +43,7 @@ Logging into the DC-1 VM, navigate to Server Manager, Add Roles and Features, an
 <img width="2880" height="1696" alt="image" src="https://github.com/user-attachments/assets/83887db6-8969-4f55-a381-ae0a83a9d490" />
 </p>
 <p>
-Open up Active Directory Users and Computers and create two new Organizational Units (OU) labeled "_EMPLOYEES" and "_ADMINS". Create a new user within the "_ADMINS" OU and add this user to the Domain Admins security group.
+Open up Active Directory Users and Computers and create a new Organizational Unit (OU) labeled "_ADMINS". Create a new user within the "_ADMINS" OU and add this user to the Domain Admins security group.
 </p>
 <br />
 
@@ -51,6 +51,6 @@ Open up Active Directory Users and Computers and create two new Organizational U
 <img width="2880" height="1716" alt="image" src="https://github.com/user-attachments/assets/8ca03125-0eae-4d67-8e96-8c889b54fe12" />
 </p>
 <p>
-Please ensure that Client-1's DNS settings are configured to use DC-1's Private IP address. From the Client-1 VM, navigate to the Rename this PC (Advanced) settings, select 'Change' to change the domain, switch to 'Member of domain: mydomain.com', and log in using the domain admin's login credentials. Restart the machine to implement the change and verify that client-1 shows up in ADUC.
+Please ensure that Client-1's DNS settings are configured to use DC-1's Private IP address. From the Client-1 VM, navigate to the Rename this PC (Advanced) settings, select 'Change' to change the domain, switch to 'Member of domain: mydomain.com', and log in using the domain admin's login credentials. Restart the machine to implement the change and verify that client-1 shows up in ADUC under the 'Computers' Organizational Unit. Create a new OU labeled "_Clients" and move client-1 into it.
 </p>
 <br />
